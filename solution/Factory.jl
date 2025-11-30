@@ -32,7 +32,7 @@ function build(modeltype::Type{MyExperimentalDrugCocktailContext}, data::NamedTu
     context.cost = data.cost
     context.levels = data.levels
     context.W = data.W
-    context.S = data.S
+    context.safety = data.safety
     context.bounds = data.bounds
 
     return context
